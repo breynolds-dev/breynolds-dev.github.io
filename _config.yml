@@ -1,0 +1,21 @@
+# Site settings
+title: Learning at Learn!
+header-img: img/home-bg.png
+email: bri.reynolds@gmail.com
+copyright_name: arturusfury
+description: > # this means to ignore newlines until "baseurl:"
+  A new student's experience with Flatiron and Fullstack Development
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: arturusfury
+github_username:  arturusfury
+learn_profile: arturusfury
+email_username: bri.reynolds@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
