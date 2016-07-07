@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Atom, Terminal and you"
-date:   2016-07-07 20:35:18 +0000
+date:   2016-07-07 16:35:18 -0400
 ---
 
 
@@ -25,12 +25,12 @@ A good text editor has to be the most important tool for almost any programmer. 
 
 Right out of the box these editor's give you so many nice tools due to the packages or plugins that they come with. Auto completion, auto closing tags, bracket matchers (because who hasn't spent hours finding a missing bracket), and so much more. However that's just the beginning. You can find user submitted packages out there to download that continue to make life easier. I've thrown together a list of some of my favorites.
 
-* [auto-update-packages](https://atom.io/packages/auto-update-packages) While this plugin is simple it helps to make sure all the rest of your packages are up to date with the latest fixes and features. Sometimes a new feature will break things, however more often than not you're going to find it helpful.
-* [file-icons](https://atom.io/packages/file-icons) This simple little package just helps to make filetypes easier to identify when you are browsing the file tree. Clean, simple, elegant.
-* [color-picker](https://atom.io/packages/color-picker) & [pigments](https://atom.io/packages/pigments) are two great plugins if you do anything in web design. Not only does it allow you to use a nifty little color popout to pick the color you want to use, it will also change the background behind that color text to give you a visual representation of every color code in your css or html file.
-* [open-in-browser](https://atom.io/packages/open-in-browser) is a nice little plugin that makes previewing your html or css changes a little easier by giving you a quick right click menu option to open whatever page you right-clicked on in a web browser. Just a quick little time saver.
+* **[auto-update-packages](https://atom.io/packages/auto-update-packages)** While this plugin is simple it helps to make sure all the rest of your packages are up to date with the latest fixes and features. Sometimes a new feature will break things, however more often than not you're going to find it helpful.
+* **[file-icons](https://atom.io/packages/file-icons)** This simple little package just helps to make filetypes easier to identify when you are browsing the file tree. Clean, simple, elegant.
+* **[color-picker](https://atom.io/packages/color-picker)** & **[pigments](https://atom.io/packages/pigments)** are two great plugins if you do anything in web design. Not only does it allow you to use a nifty little color popout to pick the color you want to use, it will also change the background behind that color text to give you a visual representation of every color code in your css or html file.
+* **[open-in-browser](https://atom.io/packages/open-in-browser)** is a nice little plugin that makes previewing your html or css changes a little easier by giving you a quick right click menu option to open whatever page you right-clicked on in a web browser. Just a quick little time saver.
 * [terminal-plus](https://atom.io/packages/terminal-plus) is another one of those time saver plugin's I like that means I don't need to leave my atom window to access the terminal. It even loads my custom bash prompt, yay!
-* [git-plus](https://atom.io/packages/git-plus) is the last of the plugin's that I almost cannot live without anymore. Git Plus allows me to do so much with my git repos with a few simple clicks. I can add all, commit with a message and push all the files to my active branch with one click.  With this I'm doing commits more often so that I have a better record of all of my changes.
+* **[git-plus](https://atom.io/packages/git-plus)** is the last of the plugin's that I almost cannot live without anymore. Git Plus allows me to do so much with my git repos with a few simple clicks. I can add all, commit with a message and push all the files to my active branch with one click.  With this I'm doing commits more often so that I have a better record of all of my changes.
 
 
 These things sometimes take some time to find the right packages or bash prompt settings that are going to make you happy, but in the long run little things like these help to speed up your programming and web design so much. 
