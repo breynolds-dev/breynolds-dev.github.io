@@ -7,7 +7,8 @@ date:   2016-07-22 15:42:49 -0400
 
 So I’m going to work on recording this a little bit each day to mark my thoughts and progress through this assessment and project.
 
-### *Wednesday, July 20th*
+
+*Wednesday, July 20th*
 
 Today I started to create my gem by creating file structures and files manually using a few different gem’s I found on github. I quickly realized that wasn’t going to work out well since there were so many different files that needed to work together and I just didn’t have the knowledge I needed yet to complete this process.  So I sat down to watch the video tutorial from Avi.  Quickly he goes through the ‘bundle gem (gem name)’ command to generate your structure and I was like bam! Nice and easy, but wait … why do all of these files work together like so. What does this pre-generated structure of files actually do for me? Now I have to go back through this generated set of files and figure out what they all are and how they all work. It’s times like these that the magic of Ruby makes me feel like I’m getting a little dumber and that I’m gaining less of an understanding of how these things work by just using the magic commands. Sure they work great, but to really sit down and figure out the WHY really makes you take a half step back and dig into it.
 
@@ -15,7 +16,8 @@ So after all of that I am sitting here with a set of files and directories for m
 
 I’m happy with it at least so it’s time to move on to the actual program methods. I sit down to watch some more of Avi’s video and it strikes me, where is my TDD? Here we are writing basic methods that output pre generated data, but where are my tests? Why am I not writing tests to see if said command outputs this text, or see if these methods return the values I think they should. Even if I’m using dummy data I can’t help the feeling that I should be doing something different. So I’m sitting here with a bunch of methods that I’ve already created and now I have to do TDD in reverse. I need to create tests for my methods to pass, and then make my methods pass these test’s I’ve created because these methods already exist and they need tests. It just became such a frustrating moment on top of everything else that it was time to call it a day.  I will come back to it tomorrow and see what life brings.
 
-### **Thursday, July 21st**
+
+**Thursday, July 21st**
 
 So sitting down this morning I decided that I would begin by writing my tests. I looked through a couple other gem’s and there weren’t a lot of tests to be found which confused me. I always thought ruby was a heavily driven TDD language. Either way … it might make my project take a little longer but I’m going to do what I can and see what happens.  Keep moving forward right?
 
@@ -29,7 +31,8 @@ So now after all of that trouble I’m going to sit down and record my code vide
 
 So I did a little video which took about 45 minutes to record. It was actually kind of fun to work through the process while recording, I might end up doing it more often. I finally got my tests passing as they scrape code from my html documents and compare it against my hard coded information. That’s a huge step!  I had to add some special funky stuff to get pass the age gate and I need to add one more to get past the mature content filter pages that Steam has, but that’s one of the nice things Selenium does for me. I can tell it to select an option from a dropdown box and click on it like a real user would and the browser accepts those commands and then continues on to the next page. Kinda cool really. I might need to do some more experiments with it and do a blog post about just that. I could see it being useful for testing Rails or Sinatra type projects.
 
-## Friday, July 22nd
+
+Friday, July 22nd
 
 So after a long day yesterday I finally felt like I was making some progress at the end of it. It took me a lot longer then I had hoped but I got my scraping methods setup and working. Now it was time to do something with that data. The methods for displaying the information was something we had done before so using those as a template I was able to quickly get through my information and get it displayed. Now I needed to format my information and then get it into my CLI methods and I would be done! I can see the light at the end of the tunnel and I don’t think it’s a train this time!
 
