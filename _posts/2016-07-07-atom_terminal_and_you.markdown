@@ -5,18 +5,63 @@ date:   2016-07-07 16:35:18 -0400
 ---
 
 
-Recent discussions with a few people got me thinking about productivity and personal preference. When I first started working to learn programming I was using the default OS X terminal, basic Atom settings and my own ignorance of the way things should be. Now after countless hours of tweaking and searching online I have started to see how much more efficient my work can be. All it takes is a few steps and someone to show me where to start. So here I am hoping that I can show even just one person where to start and get their mind thinking, "Maybe I can change this here".
+Recent discussions with a few people got me thinking about productivity and personal preference. When I first started working to learn programming I was using the default OS X terminal, basic Atom settings and my own ignorance of the way things should be. Now after hours of tweaking and searching online I have started to see how much more efficient my work can be. All it took was someone to show me where to start and a little bit of work to get it setup the way I wanted.
+
+So here I am hoping that I can show even just one person where to start and get their mind working on what they can do next
 
 
 **Terminal**
 
-The OS X terminal in my opinion will be the second or third most important thing you'll use to program. I never really thought about how to customize it or even if I should. For me a terminal and bash prompt has always just been whatever I was given and I used it to the best of my ability. Diving into it deeper now I realize that I can do so much more with it.  Simple little changes like adding a clock and my git branch started to make life so much easier when moving around and cloning, adding and committing things. I took that and then decided I could take it even further and thus I ended up with something like this.
+The OS X terminal in my opinion will be the second or third most important thing you’ll use to program (if you’re on a Mac). I never really thought about how to customize it or even if I should. For me a terminal and bash prompt has always just been whatever I was given and I used it to the best of my ability. Diving into it deeper now I realize that I can do so much more with it. Simple little changes like adding a clock and my git branch started to make life so much easier when moving around and cloning, adding and committing things. I took that and then decided I could take it even further and thus I ended up with something like this.
 
 ![http://i.imgur.com/89FzfSu.png](http://i.imgur.com/VrWboJo.png)
 
-I know it doesn't seem like much, but for me it's perfect. I have a nice clean interface for my terminal prompt where I can quickly see the time, the entire directory structure of my current folder and even a nice highlight to show what my current folder is. Then on the right we have my git branch that's easily accessible and readable for me so I always know which branch I'm working on. I tried several different things like battery percentages and all sorts of little scripts, but most of them seemed to just detract from the nice clean look I was going for.
+I know it doesn’t seem like much, but for me it’s perfect. I have a nice clean interface for my terminal prompt where I can quickly see the time, the entire directory structure of my current folder and even a nice highlight to show what my current folder is. Then on the right we have my git branch that’s easily accessible and readable for me so I always know which branch I’m working on. I tried several different things like battery percentages and all sorts of little scripts, but most of them seemed to just detract from the nice clean look I was going for.
 
-I have looked into other shells like zsh, but after messing around with them I found that I didn't like the way they moved and handled. I don't know what it was about it. I'm just happy with how my bash prompt turned out today. If anyone want's my .bash_profile information feel free to contact me about it, I will gladly share it.
+There are several different terminal shells you can work with like zsh and I spent some time playing around with them, but in the end I felt like bash worked best for what I wanted. I’m not sure why, it just felt better. Each person is going to be different and if you feel like one of the others works better for you then use it! Don’t get stuck using something that feels clunky or that is a headache for you.
+
+
+**Aliases** & **Bash Functions**
+
+The second half of my bash experience has been using aliases and functions to automate my work for me. The less I have to type and the less I have to move my hands to use the trackpad or click around on different programs the more productive I feel. All with just a few little lines. I’m going to post a few of them here:
+
+```
+#Used to reload the bash shell after making changes
+alias reload="source ~/.bash_profile"
+
+#Open's the .bash_profile in atom editor quickly
+alias bashprofile="atom ~/.bash_profile"
+```
+
+Those two quick little aliases made it easy for me to get into my bash profile for editing, and reloading my bash shell after making changes. These two aliases don’t really accomplish much, but they saved me a lot of time.
+
+```
+#Creates a Directory then CDs right into the new directory
+function md { mkdir $1; cd $1; }
+```
+
+This little function is just a nice little time saver when making directories for applications, or even just something to hold files.
+
+```
+alias gs="git status"
+alias ga="git add"
+alias gb="git branch"
+alias gcl="git clone"
+alias gcm="git commit -m"
+alias gco="git checkout"
+alias hc="hub create"
+alias gpom="git push origin master"
+alias gcom="git checkout master"
+
+function gclone {
+      reponame=${1##*/}
+      reponame=${reponame%.git}
+      git clone "$1" "$reponame";
+      cd "$reponame";
+}
+```
+
+These aliases have become my life. I’ve been using github so much recently cloning lessons, making changes and pushing commits back. Changing branches and even creating new repos that if I had to keep only one set of aliases this would be it. Some of them spawned just because I wanted to be lazy and type gcm instead of git commit -m and others make life so much easier. For example the gclone function just cd’s you into the directory of the repo you’ve just cloned. How nice is that? I just gclone somerepo.git and bam I’m in the directory ready to start working. You can even take it a bit further and automate your bundle install and atom . commands into that same function so now it’s opening your editor and making sure you have all the correct gems installed.
 
 
 **Atom** or **Sublime**
@@ -33,5 +78,5 @@ Right out of the box these editor's give you so many nice tools due to the packa
 * [git-plus](https://atom.io/packages/git-plus) is the last of the plugin's that I almost cannot live without anymore. Git Plus allows me to do so much with my git repos with a few simple clicks. I can add all, commit with a message and push all the files to my active branch with one click.  With this I'm doing commits more often so that I have a better record of all of my changes.
 
 
-These things sometimes take some time to find the right packages or bash prompt settings that are going to make you happy, but in the long run little things like these help to speed up your programming and web design so much. 
+Finding the right environment is really up to you, everything you do needs to make YOU feel happier and more productive. I have looked at the development environments other people use and I try different programs, different plugins and even different window layouts. In the end however it all comes down to what works for you. No two environments should be the same because no two people are the same. Just have fun with it!
 
