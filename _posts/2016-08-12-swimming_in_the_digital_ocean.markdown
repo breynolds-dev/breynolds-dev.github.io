@@ -1,22 +1,11 @@
 ---
 layout: post
 title:  "Swimming in the Digital Ocean"
-date:   2016-08-12 16:24:07 +0000
+date:   2016-08-12 12:24:07 -0400
 ---
 
 
 So I've spent the better part of three days experimenting with Digital Ocean droplets and working with Google Domains to get a personal portfolio setup. The idea was I would be able to host my portfolio and several projects that can be used as examples of my work to perspective employers or really anyone who wanted to check them out. Simple idea, sounded pretty easy to do however it took me a while to get everything straightened out.
-
-
-**Domains**
-
-So I needed to find a place to get a domain and I had already experienced the horrifying experience that is GoDaddy, not again. I decided to look around a little for different options. There are several ones that I thought looked promising and I might play with some of those in the future.
-
-* Google Domains
-* Route 53 (Amazon Domain Services)
-* Namecheap
-
-I ended up using Google Domains for my personal domain to make life easy to start.  Free privacy protection, automatic renewals and a relatively well priced domain worked great for me.  The idea of it all being tied into my google account for easy access was nice too. Now I needed something to attach my domain to …
 
 
 **Digital Ocean**
