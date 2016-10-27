@@ -4,7 +4,7 @@ title:  "Toughing it out"
 date:   2016-10-26 22:54:31 -0400
 ---
 
-![](http://imgur.com/80DeagI)
+![](http://imgur.com/80DeagI.jpg)
 
 
 Once again we reach a point where I’m finishing up an assessment and working on the final touches such as recording or encoding videos, minor clean up and handling any last minute issues that come up. This assessment, this whole module really was one of the toughest for me and I’m not sure why. I spent so much time in rails and on my final project there I can only assume I burned myself out and had to take a break. The downside to that is I couldn’t ever pick it back up and get going again.
