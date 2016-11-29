@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "Hard as Two Month Old Bread"
-date:   2016-11-29 03:18:51 +0000
+date:   2016-11-28 22:18:51 -0500
 ---
 
-![](http://i.cubeupload.com/GA7D0l.png)
+![](http://i.cubeupload.com/QOQlfE.png)
 
 **Recipe apps are hard**, don't let anyone tell you differently. Now you can do things to make them easier mind you, but for me to do something the way I thought it should be done, it was hard. When you sit down to think about a recipe you often forget about all of the little things that go into something so simple.
 
